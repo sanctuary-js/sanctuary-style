@@ -1,0 +1,21 @@
+{
+  "arrow-body-style": ["as-needed"],
+  "arrow-parens": ["as-needed"],
+  "arrow-spacing": [{"before": true, "after": true}],
+  "comma-dangle": ["always-multiline"],
+  "dot-notation": [{"allowKeywords": true}],
+  "func-style": ["expression", {"allowArrowFunctions": true}],
+  "generator-star-spacing": [{"before": false, "after": true}],
+  "no-const-assign": [],
+  "no-invalid-regexp": [{"allowConstructorFlags": ["g", "i", "m", "u", "y"]}],
+  "no-useless-computed-key": [],
+  "no-var": [],
+  "prefer-arrow-callback": [{"allowNamedFunctions": false}],
+  "prefer-const": [{"destructuring": "any"}],
+  "prefer-rest-params": [],
+  "prefer-spread": [],
+  "prefer-template": [],
+  "quote-props": ["as-needed", {"keywords": false}],
+  "template-curly-spacing": ["never"],
+  "yield-star-spacing": [{"before": false, "after": true}]
+}

@@ -1,0 +1,12 @@
+{
+  "comma-dangle": ["never"],
+  "dot-notation": [{"allowKeywords": false}],
+  "func-style": ["expression", {"allowArrowFunctions": false}],
+  "no-catch-shadow": [],
+  "no-func-assign": [],
+  "no-inner-declarations": ["functions"],
+  "no-invalid-regexp": [{"allowConstructorFlags": ["g", "i", "m"]}],
+  "no-redeclare": [{"builtinGlobals": true}],
+  "no-unused-vars": [{"vars": "all", "args": "none", "caughtErrors": "none"}],
+  "quote-props": ["as-needed", {"keywords": true}]
+}
