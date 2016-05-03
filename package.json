@@ -1,0 +1,26 @@
+{
+  "name": "sanctuary-style",
+  "version": "0.0.0",
+  "description": "ESLint configuration",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sanctuary-js/sanctuary-style.git"
+  },
+  "scripts": {
+    "test": "make lint"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "2.9.x",
+    "ramda": "0.21.x",
+    "xyz": "0.5.x"
+  },
+  "files": [
+    "/LICENSE",
+    "/README.md",
+    "/eslint-es3.json",
+    "/eslint-es6.json",
+    "/package.json"
+  ]
+}
