@@ -1,14 +1,20 @@
 ESLINT = node_modules/.bin/eslint
 NPM = npm
-XYZ = node_modules/.bin/xyz --repo git@github.com:sanctuary-js/sanctuary-style.git
+XYZ = node_modules/.bin/xyz --repo git@github.com:sanctuary-js/sanctuary-style.git --script scripts/prepublish
 
 JSON = $(shell find . -name '*.json' -not -path './node_modules/*' | sort)
-SCRIPTS = $(shell find scripts -type f | sort)
+SCRIPTS = $(shell find scripts -type f -not -name prepublish | sort)
 FILES = eslint-es3.json eslint-es6.json
 
 
 .PHONY: all
-all: $(FILES)
+all: LICENSE $(FILES)
+
+.PHONY: LICENSE
+LICENSE:
+	cp -- '$@' '$@.orig'
+	sed 's/Copyright (c) .* Sanctuary/Copyright (c) $(shell git log --date=format:%Y --pretty=format:%ad | sort -r | head -n 1) Sanctuary/' '$@.orig' >'$@'
+	rm -- '$@.orig'
 
 eslint-%.json: eslint-%-only.json eslint-common.json scripts/eslint-combine
 	scripts/eslint-combine eslint-common.json '$<' >'$@'
