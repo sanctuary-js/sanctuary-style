@@ -53,6 +53,7 @@
   "no-unexpected-multiline": [],
   "no-unneeded-ternary": [{"defaultAssignment": false}],
   "no-unreachable": [],
+  "no-unused-vars": [{"vars": "all", "args": "none", "caughtErrors": "none"}],
   "no-useless-concat": [],
   "no-useless-escape": [],
   "no-whitespace-before-property": [],

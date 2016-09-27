@@ -63,6 +63,7 @@
     "no-unexpected-multiline": ["error"],
     "no-unneeded-ternary": ["error", {"defaultAssignment": false}],
     "no-unreachable": ["error"],
+    "no-unused-vars": ["error", {"args": "none", "caughtErrors": "none", "vars": "all"}],
     "no-useless-computed-key": ["error"],
     "no-useless-concat": ["error"],
     "no-useless-escape": ["error"],
