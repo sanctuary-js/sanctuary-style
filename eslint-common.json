@@ -64,6 +64,7 @@
   "radix": ["always"],
   "semi": ["always", {"omitLastInOneLineBlock": false}],
   "semi-spacing": [{"before": false, "after": true}],
+  "space-before-blocks": ["always"],
   "space-before-function-paren": [{"anonymous": "never", "named": "never"}],
   "space-in-parens": ["never", {"exceptions": []}],
   "space-infix-ops": [],
