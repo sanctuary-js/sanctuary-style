@@ -82,6 +82,7 @@
     "radix": ["error", "always"],
     "semi": ["error", "always", {"omitLastInOneLineBlock": false}],
     "semi-spacing": ["error", {"after": true, "before": false}],
+    "space-before-blocks": ["error", "always"],
     "space-before-function-paren": ["error", {"anonymous": "never", "named": "never"}],
     "space-in-parens": ["error", "never", {"exceptions": []}],
     "space-infix-ops": ["error"],
