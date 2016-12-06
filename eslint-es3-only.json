@@ -1,7 +1,7 @@
 {
   "comma-dangle": ["never"],
   "dot-notation": [{"allowKeywords": false}],
-  "func-style": ["expression", {"allowArrowFunctions": false}],
+  "func-style": ["declaration", {"allowArrowFunctions": false}],
   "no-catch-shadow": [],
   "no-func-assign": [],
   "no-inner-declarations": ["functions"],
