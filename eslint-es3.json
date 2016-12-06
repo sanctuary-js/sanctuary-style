@@ -12,7 +12,7 @@
     "dot-notation": ["error", {"allowKeywords": false}],
     "eol-last": ["error", "unix"],
     "eqeqeq": ["error", "allow-null"],
-    "func-style": ["error", "expression", {"allowArrowFunctions": false}],
+    "func-style": ["error", "declaration", {"allowArrowFunctions": false}],
     "indent": ["error", 2, {"SwitchCase": 1}],
     "key-spacing": ["error", {"afterColon": true, "beforeColon": false, "mode": "strict"}],
     "keyword-spacing": ["error", {"after": true, "before": true}],

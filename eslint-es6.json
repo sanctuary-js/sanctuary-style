@@ -15,7 +15,7 @@
     "dot-notation": ["error", {"allowKeywords": true}],
     "eol-last": ["error", "unix"],
     "eqeqeq": ["error", "allow-null"],
-    "func-style": ["error", "expression", {"allowArrowFunctions": true}],
+    "func-style": ["error", "declaration", {"allowArrowFunctions": true}],
     "generator-star-spacing": ["error", {"after": true, "before": false}],
     "indent": ["error", 2, {"SwitchCase": 1}],
     "key-spacing": ["error", {"afterColon": true, "beforeColon": false, "mode": "strict"}],
