@@ -13,7 +13,7 @@ all: LICENSE $(FILES)
 .PHONY: LICENSE
 LICENSE:
 	cp -- '$@' '$@.orig'
-	sed 's/Copyright (c) .* Sanctuary/Copyright (c) $(shell git log --date=format:%Y --pretty=format:%ad | sort -r | head -n 1) Sanctuary/' '$@.orig' >'$@'
+	sed 's/Copyright (c) .* Sanctuary/Copyright (c) $(shell git log --date=short --pretty=format:%ad | sort -r | head -n 1 | cut -d - -f 1) Sanctuary/' '$@.orig' >'$@'
 	rm -- '$@.orig'
 
 eslint-%.json: eslint-%-only.json eslint-common.json scripts/eslint-combine
@@ -31,6 +31,7 @@ lint:
 	$(ESLINT) --config eslint-es6.json --env es6 --env node -- $(SCRIPTS)
 	make clean
 	make
+	git checkout -- LICENSE
 	git diff --exit-code
 
 
