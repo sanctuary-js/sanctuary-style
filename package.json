@@ -12,9 +12,12 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "eslint": "2.9.x",
+    "eslint": "3.19.x",
     "ramda": "0.21.x",
     "xyz": "2.0.x"
+  },
+  "peerDependencies": {
+    "eslint": "3.19.x"
   },
   "files": [
     "/LICENSE",
