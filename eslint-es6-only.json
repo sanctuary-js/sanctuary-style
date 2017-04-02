@@ -9,13 +9,16 @@
   "no-const-assign": [],
   "no-invalid-regexp": [{"allowConstructorFlags": ["g", "i", "m", "u", "y"]}],
   "no-useless-computed-key": [],
+  "no-useless-rename": [],
   "no-var": [],
   "prefer-arrow-callback": [{"allowNamedFunctions": false}],
   "prefer-const": [{"destructuring": "any"}],
+  "prefer-numeric-literals": [],
   "prefer-rest-params": [],
   "prefer-spread": [],
   "prefer-template": [],
   "quote-props": ["as-needed", {"keywords": false}],
   "template-curly-spacing": ["never"],
+  "template-tag-spacing": ["never"],
   "yield-star-spacing": [{"before": false, "after": true}]
 }
