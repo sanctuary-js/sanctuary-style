@@ -1,5 +1,6 @@
 {
   "rules": {
+    "array-bracket-newline": ["error", "consistent"],
     "array-bracket-spacing": ["error", "never"],
     "block-spacing": ["error", "always"],
     "brace-style": ["error", "1tbs", {"allowSingleLine": true}],
