@@ -9,6 +9,7 @@
     "computed-property-spacing": ["error", "never"],
     "curly": ["error", "multi-line", "consistent"],
     "dot-location": ["error", "property"],
+    "dot-notation": ["off"],
     "eol-last": ["error", "always"],
     "eqeqeq": ["error", "always", {"null": "never"}],
     "for-direction": ["error"],
@@ -70,6 +71,7 @@
     "object-curly-spacing": ["error", "never"],
     "object-property-newline": ["error", {"allowMultiplePropertiesPerLine": true}],
     "operator-assignment": ["error", "always"],
+    "quote-props": ["error", "consistent"],
     "quotes": ["error", "single", {"avoidEscape": true}],
     "radix": ["error", "always"],
     "semi": ["error", "always", {"omitLastInOneLineBlock": false}],
@@ -95,17 +97,13 @@
     },
     {
       "files": ["karma.conf.js"],
-      "env": {"node": true},
-      "rules": {
-        "dot-notation": ["error", {"allowKeywords": true}]
-      }
+      "env": {"node": true}
     },
     {
       "files": ["test/**/*.js"],
       "env": {"es6": true, "node": true},
       "globals": {"suite": false, "test": false},
       "rules": {
-        "dot-notation": ["error", {"allowKeywords": true}],
         "max-len": ["off"]
       }
     }

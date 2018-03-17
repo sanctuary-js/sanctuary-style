@@ -71,13 +71,13 @@ console.log({foo: 1,
              baz: 3});
 
 console.log({
-  abc: 0,
+  'abc': 0,
   'var': 0,
-  xyz: 0
+  'xyz': 0
 });
 
 var rules = {
-  semi: [
+  'semi': [
     'error',
     'always',
     {omitLastInOneLineBlock: false}
@@ -92,6 +92,6 @@ var rules = {
   ]
 };
 
-console.log(rules.semi);
+console.log(rules['semi']);
 console.log(rules['semi-spacing']);
 console.log(rules['semi-style']);
