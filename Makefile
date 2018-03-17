@@ -1,3 +1,4 @@
+ESLINT = node_modules/.bin/eslint
 NPM = npm
 XYZ = node_modules/.bin/xyz --repo git@github.com:sanctuary-js/sanctuary-style.git --script scripts/prepublish
 
@@ -17,6 +18,8 @@ LICENSE:
 .PHONY: lint
 lint:
 	printf 'require(\\"%s\\")\n' $(JSON) | xargs node --eval
+	$(ESLINT) --config eslint-es3.json -- example-es3.js
+	$(ESLINT) --config eslint-es6.json -- example-es6.js
 
 
 .PHONY: release-major release-minor release-patch
