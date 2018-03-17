@@ -57,13 +57,9 @@ baz = (function(baz) {
 }(baz));
 
 console.log(
-  baz === 'baz' ?
-    /x/.test(baz) ?
-      Math.sin :
-    // else
-      Math.cos :
-  // else
-    Math.abs
+  baz !== 'baz' ? Math.abs :
+  /x/.test(baz) ? Math.sin :
+  /* otherwise */ Math.cos
 );
 
 console.log(['foo',
