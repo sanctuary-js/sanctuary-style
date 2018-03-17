@@ -71,7 +71,7 @@ console.log({
 });
 
 const rules = {
-  semi: [
+  'semi': [
     'error',
     'always',
     {omitLastInOneLineBlock: false},
@@ -86,6 +86,6 @@ const rules = {
   ],
 };
 
-console.log(rules.semi);
+console.log(rules['semi']);
 console.log(rules['semi-spacing']);
 console.log(rules['semi-style']);

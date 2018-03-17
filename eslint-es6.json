@@ -6,7 +6,6 @@
     "arrow-parens": ["error", "as-needed"],
     "arrow-spacing": ["error", {"before": true, "after": true}],
     "comma-dangle": ["error", "always-multiline"],
-    "dot-notation": ["error", {"allowKeywords": true}],
     "func-style": ["error", "declaration", {"allowArrowFunctions": true}],
     "generator-star-spacing": ["error", {"before": false, "after": true}],
     "no-const-assign": ["error"],
@@ -20,7 +19,6 @@
     "prefer-rest-params": ["error"],
     "prefer-spread": ["error"],
     "prefer-template": ["error"],
-    "quote-props": ["error", "as-needed", {"keywords": false}],
     "template-curly-spacing": ["error", "never"],
     "template-tag-spacing": ["error", "never"],
     "yield-star-spacing": ["error", {"before": false, "after": true}]
