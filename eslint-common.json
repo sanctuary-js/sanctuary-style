@@ -6,7 +6,6 @@
     "brace-style": ["error", "1tbs", {"allowSingleLine": true}],
     "comma-spacing": ["error", {"before": false, "after": true}],
     "comma-style": ["error", "last"],
-    "computed-property-spacing": ["error", "never"],
     "curly": ["error", "multi-line", "consistent"],
     "dot-location": ["error", "property"],
     "dot-notation": ["off"],
