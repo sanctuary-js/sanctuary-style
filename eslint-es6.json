@@ -6,6 +6,7 @@
     "arrow-parens": ["error", "as-needed"],
     "arrow-spacing": ["error", {"before": true, "after": true}],
     "comma-dangle": ["error", "always-multiline"],
+    "computed-property-spacing": ["error", "never"],
     "func-style": ["error", "declaration", {"allowArrowFunctions": true}],
     "generator-star-spacing": ["error", {"before": false, "after": true}],
     "no-const-assign": ["error"],
