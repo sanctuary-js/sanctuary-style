@@ -40,7 +40,7 @@
     "no-mixed-spaces-and-tabs": ["error"],
     "no-multi-str": ["error"],
     "no-multiple-empty-lines": ["error", {"max": 2, "maxBOF": 0, "maxEOF": 0}],
-    "no-negated-condition": ["error"],
+    "no-negated-condition": ["off"],
     "no-new-object": ["error"],
     "no-octal": ["error"],
     "no-octal-escape": ["error"],
