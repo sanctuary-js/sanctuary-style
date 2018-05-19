@@ -24,4 +24,4 @@ lint:
 ```
 
 
-[1]: http://eslint.org/
+[1]: https://eslint.org/
