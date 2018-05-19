@@ -2,35 +2,46 @@
 
 /* eslint-env node */
 
-function sum(xs) { return xs.length === 0 ? 0 : xs[0] + sum(xs.slice(1)); }
+function sum(xs) { return xs.length === 0 ? 0 : xs[0] + sum (xs.slice (1)); }
 
 const foo = x => y => z => [x, y, z];
 
-if (parseInt("foo 'bar' baz", 10) > 0) {
-  console.log(1);
+if (parseInt ("foo 'bar' baz", 10) > 0) {
+  console.log (1);
 } else if (foo.bar == null) {
-  console.log(2);
+  console.log (2);
 } else {
-  console.log(3);
+  console.log (3);
 }
 
-const epoch = new Date('1970-01-01T00:00:00.000Z');
-if ((foo.bar = {baz: 'baz'})) console.log(epoch);
-else console.log(sum(foo(123)(456)(789)));
+const epoch = new Date ('1970-01-01T00:00:00.000Z');
+if ((foo.bar = {baz: 'baz'})) console.log (epoch);
+else console.log (sum (foo (123) (456) (789)));
+
+foo (123)
+    (456)
+    (789);
+
+foo
+  (123)
+  (456)
+  (789);
 
 foo
 .bar
 .baz
-.toUpperCase()
-.replace(/^/, '[')
-.concat(']');
+.toUpperCase ()
+.replace (/^/, '[')
+.concat (']');
 
 foo
   .bar
   .baz
-  .toUpperCase()
-  .replace(/^/, '[')
-  .concat(']');
+  .toUpperCase ()
+  .replace (/^/, '[')
+  .concat (']');
+
+((foo.bar.baz.toUpperCase ()).replace (/^/, '[')).concat (']');
 
 let baz = foo.bar.baz;
 
@@ -48,26 +59,26 @@ baz = (baz => {
     case 2: return 'bar';
     case 3: return 'baz';
   }
-})(baz);
+}) (baz);
 
-console.log(
+console.log (
   baz !== 'baz' ? Math.abs :
-  /x/.test(baz) ? Math.sin :
+  /x/.test ('') ? Math.sin :
   /* otherwise */ Math.cos
 );
 
-console.log(['foo',
-             'bar',
-             'baz']);
+console.log (['foo',
+              'bar',
+              'baz']);
 
-console.log({foo: 1,
-             bar: 2,
-             baz: 3});
+console.log ({foo: 1,
+              bar: 2,
+              baz: 3});
 
-console.log({
+console.log ({
   abc: 0,
   var: 0,
-  ['XYZ'.toLowerCase()]: 0,
+  ['XYZ'.toLowerCase ()]: 0,
 });
 
 const rules = {
@@ -86,6 +97,6 @@ const rules = {
   ],
 };
 
-console.log(rules['semi']);
-console.log(rules['semi-spacing']);
-console.log(rules['semi-style']);
+console.log (rules['semi']);
+console.log (rules['semi-spacing']);
+console.log (rules['semi-style']);
