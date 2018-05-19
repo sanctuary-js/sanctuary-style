@@ -19,7 +19,7 @@
     "prefer-numeric-literals": ["error"],
     "prefer-rest-params": ["error"],
     "prefer-spread": ["error"],
-    "prefer-template": ["error"],
+    "prefer-template": ["off"],
     "template-curly-spacing": ["error", "never"],
     "template-tag-spacing": ["error", "never"],
     "yield-star-spacing": ["error", {"before": false, "after": true}]
