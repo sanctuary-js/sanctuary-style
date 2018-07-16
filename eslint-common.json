@@ -91,6 +91,10 @@
   },
   "overrides": [
     {
+      "files": ["**/*.mjs"],
+      "parserOptions": {"sourceType": "module"}
+    },
+    {
       "files": ["*.md"],
       "plugins": ["markdown"],
       "env": {"es6": true, "node": true},
@@ -105,11 +109,11 @@
       "globals": {"__doctest": false, "define": false, "module": false, "require": false, "self": false}
     },
     {
-      "files": ["karma.conf.js"],
+      "files": ["karma.conf.{js,mjs}"],
       "env": {"node": true}
     },
     {
-      "files": ["test/**/*.js"],
+      "files": ["test/**/*.{js,mjs}"],
       "env": {"es6": true, "node": true},
       "globals": {"suite": false, "test": false},
       "rules": {
