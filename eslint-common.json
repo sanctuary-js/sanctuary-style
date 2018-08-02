@@ -2,6 +2,7 @@
   "rules": {
     "array-bracket-newline": ["error", "consistent"],
     "array-bracket-spacing": ["error", "never"],
+    "array-element-newline": ["error", "consistent"],
     "block-spacing": ["error", "always"],
     "brace-style": ["error", "1tbs", {"allowSingleLine": true}],
     "comma-spacing": ["error", {"before": false, "after": true}],
@@ -18,6 +19,7 @@
     "keyword-spacing": ["error", {"before": true, "after": true}],
     "linebreak-style": ["error", "unix"],
     "max-len": ["error", {"code": 79, "ignoreUrls": true, "ignorePattern": "^ *//(# |  .* :: |[.] > |[.] // )"}],
+    "multiline-comment-style": ["error", "separate-lines"],
     "new-parens": ["error"],
     "no-array-constructor": ["error"],
     "no-caller": ["error"],
