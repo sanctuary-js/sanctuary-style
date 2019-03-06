@@ -64,6 +64,7 @@
     "no-unreachable": ["error"],
     "no-unsafe-negation": ["error"],
     "no-unused-vars": ["error", {"vars": "all", "args": "none", "caughtErrors": "none"}],
+    "no-useless-catch": ["error"],
     "no-useless-concat": ["error"],
     "no-useless-escape": ["error"],
     "no-whitespace-before-property": ["error"],
