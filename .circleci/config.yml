@@ -1,13 +1,11 @@
-version: 2
+version: 2.1
 
 jobs:
   build:
     docker:
-      - image: circleci/node:6
+      - image: circleci/node:12
         environment:
           NPM_CONFIG_COLOR: false
-          NPM_CONFIG_LOGLEVEL: warn
-          NPM_CONFIG_PROGRESS: false
     parallelism: 1
     steps:
       - checkout
