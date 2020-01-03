@@ -12,11 +12,11 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "eslint": "5.15.x",
+    "eslint": "6.8.x",
     "xyz": "4.0.x"
   },
   "peerDependencies": {
-    "eslint": "5.15.x"
+    "eslint": "6.8.x"
   },
   "files": [
     "/LICENSE",
