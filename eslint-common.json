@@ -111,7 +111,7 @@
     },
     {
       "files": ["index.js"],
-      "globals": {"__doctest": false, "define": false, "module": false, "require": false, "self": false}
+      "globals": {"__doctest": "readonly", "define": "readonly", "module": "readonly", "require": "readonly", "self": "readonly"}
     },
     {
       "files": ["karma.conf.{js,mjs}"],
@@ -120,7 +120,7 @@
     {
       "files": ["test/**/*.{js,mjs}"],
       "env": {"es6": true, "node": true},
-      "globals": {"suite": false, "test": false},
+      "globals": {"suite": "readonly", "test": "readonly"},
       "rules": {
         "max-len": ["off"]
       }
