@@ -5,7 +5,7 @@
     "arrow-body-style": ["error", "as-needed"],
     "arrow-parens": ["error", "as-needed"],
     "arrow-spacing": ["error", {"before": true, "after": true}],
-    "comma-dangle": ["error", "always-multiline"],
+    "comma-dangle": ["error", {"arrays": "always-multiline", "objects": "always-multiline", "imports": "always-multiline", "exports": "always-multiline", "functions": "never"}],
     "computed-property-spacing": ["error", "never"],
     "func-style": ["error", "declaration", {"allowArrowFunctions": true}],
     "generator-star-spacing": ["error", {"before": false, "after": true}],
