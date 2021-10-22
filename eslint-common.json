@@ -114,10 +114,6 @@
       "globals": {"__doctest": "readonly", "define": "readonly", "module": "readonly", "require": "readonly", "self": "readonly"}
     },
     {
-      "files": ["karma.conf.{js,mjs}"],
-      "env": {"node": true}
-    },
-    {
       "files": ["test/**/*.{js,mjs}"],
       "env": {"es6": true, "node": true},
       "globals": {"suite": "readonly", "test": "readonly"},
