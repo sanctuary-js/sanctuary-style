@@ -27,6 +27,7 @@
     "no-case-declarations": ["error"],
     "no-compare-neg-zero": ["error"],
     "no-cond-assign": ["error", "except-parens"],
+    "no-constant-binary-expression": ["error"],
     "no-dupe-args": ["error"],
     "no-dupe-else-if": ["error"],
     "no-dupe-keys": ["error"],

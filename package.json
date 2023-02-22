@@ -12,11 +12,11 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "eslint": "8.2.x",
+    "eslint": "8.34.x",
     "xyz": "4.0.x"
   },
   "peerDependencies": {
-    "eslint": "8.2.x"
+    "eslint": "8.34.x"
   },
   "files": [
     "/LICENSE",

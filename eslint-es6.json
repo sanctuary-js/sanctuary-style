@@ -11,6 +11,7 @@
     "generator-star-spacing": ["error", {"before": false, "after": true}],
     "no-const-assign": ["error"],
     "no-invalid-regexp": ["error", {"allowConstructorFlags": ["g", "i", "m", "u", "y"]}],
+    "no-new-native-nonconstructor": ["error"],
     "no-promise-executor-return": ["error"],
     "no-unsafe-optional-chaining": ["error"],
     "no-useless-computed-key": ["error"],
