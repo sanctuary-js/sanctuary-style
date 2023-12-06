@@ -1,12 +1,18 @@
 version: 2.1
 
+orbs:
+  node: circleci/node@5.1.0
+
 jobs:
-  build:
-    docker:
-      - image: circleci/node:12
-        environment:
-          NPM_CONFIG_COLOR: false
-    parallelism: 1
+  test:
+    executor:
+      name: node/default
+      tag: 20.0.0
     steps:
       - checkout
       - run: make setup lint
+
+workflows:
+  test:
+    jobs:
+      - test
