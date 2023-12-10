@@ -2,7 +2,7 @@
 
 Code should be correct, obviously, but it should also be *stylish*.
 
-This project exports [ESLint][1] configuration files targeting ES3 and ES6.
+This project exports an [ESLint][1] configuration file.
 
 ## Usage
 
@@ -15,7 +15,7 @@ This project exports [ESLint][1] configuration files targeting ES3 and ES6.
 
 ```make
 ESLINT = node_modules/.bin/eslint
-ESLINT_OPTS = --config node_modules/sanctuary-style/eslint-es6.json --env es6 --env node
+ESLINT_OPTS = --config node_modules/sanctuary-style/eslint.json --env node
 LIB = $(shell find lib -name '*.js' | sort)
 
 .PHONY: lint
