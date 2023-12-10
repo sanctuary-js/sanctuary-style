@@ -21,9 +21,7 @@
   "files": [
     "/LICENSE",
     "/README.md",
-    "/eslint-common.json",
-    "/eslint-es3.json",
-    "/eslint-es6.json",
+    "/eslint.json",
     "/package.json"
   ]
 }
