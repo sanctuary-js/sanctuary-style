@@ -124,32 +124,5 @@
     "wrap-iife": ["error", "outside"],
     "yield-star-spacing": ["error", {"before": false, "after": true}],
     "yoda": ["error", "never", {"exceptRange": true}]
-  },
-  "overrides": [
-    {
-      "files": ["**/*.mjs"],
-      "parserOptions": {"sourceType": "module"}
-    },
-    {
-      "files": ["*.md"],
-      "plugins": ["markdown"],
-      "env": {"node": true},
-      "rules": {
-        "array-bracket-spacing": ["off"],
-        "strict": ["off"]
-      }
-    },
-    {
-      "files": ["index.js"],
-      "globals": {"__doctest": "readonly", "define": "readonly", "module": "readonly", "require": "readonly", "self": "readonly"}
-    },
-    {
-      "files": ["test/**/*.{js,mjs}"],
-      "env": {"node": true},
-      "globals": {"suite": "readonly", "test": "readonly"},
-      "rules": {
-        "max-len": ["off"]
-      }
-    }
-  ]
+  }
 }
