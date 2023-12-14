@@ -28,7 +28,7 @@
     "keyword-spacing": ["error", {"before": true, "after": true}],
     "linebreak-style": ["error", "unix"],
     "max-len": ["error", {"code": 79, "ignoreUrls": true, "ignorePattern": "^ *//(# |  .* :: |[.] [>.] |[.] // )"}],
-    "multiline-comment-style": ["error", "separate-lines"],
+    "multiline-comment-style": ["off"],
     "new-parens": ["error"],
     "no-array-constructor": ["error"],
     "no-caller": ["error"],
