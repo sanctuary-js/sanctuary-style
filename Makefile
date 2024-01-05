@@ -1,6 +1,6 @@
 ESLINT = node_modules/.bin/eslint
 NPM = npm
-XYZ = node_modules/.bin/xyz --branch main --repo git@github.com:sanctuary-js/sanctuary-style.git --script scripts/prepublish
+XYZ = node_modules/.bin/xyz --repo git@github.com:sanctuary-js/sanctuary-style.git --script scripts/prepublish
 
 JSON = $(shell find . -name '*.json' -not -path './node_modules/*' | sort)
 
